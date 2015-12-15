@@ -23,7 +23,9 @@ var GrofersSubscription = React.createClass({
         initialRoute={{
           title: 'Upcoming Delivery',
           component: DeliveryScreen,
+          leftButtonIcon : require('image!ic_menu_black')
         }}
+        tintColor = {'black'}
         />
     );
   }
